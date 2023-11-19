@@ -1,4 +1,4 @@
--- havent tested this to make sure it works because executors r down rn and i made this in notepad so i doubt it will lol
+-- havent tested this to make sure it works because executors r down rn and i made this in notepad so i doubt it will work rn lol
 
 local whitelisted = loadstring(game:HttpGet("https://raw.githubusercontent.com/rip2point/Solar-Hub-Premium/main/list.lua"))()
 
