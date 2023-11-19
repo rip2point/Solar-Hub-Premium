@@ -250,7 +250,7 @@ TextChatService.MessageReceived:Connect(function(messageData)
 				local LocalRoot = LocalChar:WaitForChild("HumanoidRootPart")
 				local Info = TweenInfo.new(0.5, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
 				
-				local tween = TweenService:Create(LocalRoot, Info, {CFrame = LocalRoot.CFrame * CFrame.new(0,-10,0)
+				local tween = TweenService:Create(LocalRoot, Info, {CFrame = LocalRoot.CFrame * CFrame.new(0,-10,0)}
 				tween:Play()
 				tween.Completed:Wait()
 				LocalRoot.Anchored = true
@@ -264,7 +264,7 @@ TextChatService.MessageReceived:Connect(function(messageData)
 				local Info = TweenInfo.new(0.5, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
 				
 				LocalRoot.Anchored = false
-				local tween = TweenService:Create(LocalRoot, Info, {CFrame = LocalRoot.CFrame * CFrame.new(0,10,0)
+				local tween = TweenService:Create(LocalRoot, Info, {CFrame = LocalRoot.CFrame * CFrame.new(0,10,0)}
 				tween:Play()
 			end)
 		end),
